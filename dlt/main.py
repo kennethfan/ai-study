@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from dlt_dataset import DltDataSet
 from dlt_model import DltModel
 
-filename = 'result.xlsx'
+filename = 'data.xlsx'
 filepath = os.path.join(os.path.dirname(__file__), filename)
 
 print(filepath)
